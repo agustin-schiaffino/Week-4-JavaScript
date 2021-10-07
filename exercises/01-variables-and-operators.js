@@ -9,3 +9,9 @@ var firstName = "Agustín";
 var surname = "Schiaffino";
 var fullName = firstName + surname;
 console.log(fullName);
+
+// 1-c) - Crear dos variables de tipo String y sumar el largo de cada variable (cantidad de letras del string) guardando el resultado de la suma en una 3er variable (utilizar length).
+var yearsOld = "I am 26 years old";
+var city = "I live in Rosario, Santa fe";
+var fullLength = yearsOld.length + city.length;
+console.log(fullLength);
