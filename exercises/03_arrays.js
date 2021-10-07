@@ -9,3 +9,8 @@ console.log(months.sort());
 months.unshift("First");
 months.push("Last");
 console.log(months);
+
+// 3-d) - Quitar un elemento del principio y del final del array (utilizar shift y pop).
+months.shift();
+months.pop();
+console.log(months);
