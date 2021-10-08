@@ -40,3 +40,21 @@ function myFunction(a,b) {
 } 
    
 myFunction(5,2.625)
+
+// 6-e) - Convertir la validación del ejercicio 6b) en una función separada y llamarla dentro de la función suma probando que todo siga funcionando igual.
+
+function separated(a,b) {
+    if (typeof(a) === "number" && typeof(b)  === "number") {
+        console.log(a+b)
+    }   else {
+        alert("This is not a number")
+        console.log("NaN")
+    }
+}
+
+function myFunction(a,b) {
+    separated(a,b)
+}
+    
+separated(5,10)
+myFunction(10,"g")
