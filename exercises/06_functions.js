@@ -7,4 +7,14 @@ function myFunction(a,b) {
 
 myFunction(10,20);
 
+// 6-b) - A la función suma anterior, agregarle una validación para controlar si alguno de los parámetros no es un número, mostrar una alerta aclarando que uno de los parámetros tiene error y retornar el valor NaN como resultado.
 
+function secondFunc(a,b) {
+    if (typeof(a) === "number" && typeof(b)  === "number") {
+        console.log(a+b)
+    }   else {
+        alert("This is not a number")
+        console.log("NaN")
+    }
+}
+secondFunc(5,5)
