@@ -17,4 +17,12 @@ function secondFunc(a,b) {
         console.log("NaN")
     }
 }
-secondFunc(5,5)
+secondFunc(5,5);
+
+// 6-c) - Crear una función validate integer que reciba un número como parámetro y devuelva verdadero si es un número entero.
+
+function validateInteger(x) {
+    console.log(Number.isInteger(x));
+}
+
+validateInteger(50);
