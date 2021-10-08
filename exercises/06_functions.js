@@ -27,3 +27,16 @@ function numberCheck(x) {
 
 numberCheck(50);
 
+// 6-d) - A la función suma del ejercicio 6b) agregarle una llamada que valide que los números sean enteros. En caso que haya decimales mostrar un alerta con el error y retorna el número convertido a entero (redondeado).
+
+function myFunction(a,b) {
+    var result = a+b
+    if (Number.isInteger(result)) {
+        console.log(result)
+    } else {
+        alert("error")
+        console.log(Math.round(result))
+    }
+} 
+   
+myFunction(5,2.625)
