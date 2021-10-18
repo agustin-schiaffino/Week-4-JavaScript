@@ -9,8 +9,8 @@ console.log(firstFruit);
 
 // 2-c) - Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring).
 var clubFan = "I am a Newells Old Boys fan";
-console.log(clubFan.length);
-var lastThree = clubFan.substring(24,27);
+var lastThree = clubFan.substring(clubFan.length-3);
+console.log(lastThree);
 
 // 2-d) - Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con la primera letra en mayúscula y las demás en minúscula. Guardar el resultado en una nueva variable (utilizar substring, toUpperCase, toLowerCase y el operador +).
 var myFood = "i like hamburguers";
